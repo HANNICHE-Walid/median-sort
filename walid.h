@@ -13,7 +13,6 @@ string to_string(const string& s) {
 //#define WSKIP_EMPTY 1
 
 vector<string> py_split(const string& str, const string& delim=", "){
-  cout<<str<<endl;
     vector<string> tokens;
     size_t prev = 0, pos = 0;
 
